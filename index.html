@@ -21,14 +21,14 @@
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
       <h1 class="push-0">Shrubbery, etc.</h1>
     </div>
-    <nav class="navigation">
+    <nav class="nav" role="navigation" id="nav">
       <div class="wrapper gutter-1-2">
         <ol class="mega list-group-inline push-0">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Shrubs</a></li>
-          <li><a href="#">Prices</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#shrubs">Shrubs</a></li>
+          <li><a href="#prices">Prices</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ol>
       </div>
     </nav>
@@ -41,14 +41,14 @@
       </div>
       <div class="about-content pad-t-2 pad-b-2">
         <div class="wrapper gutter-1-2">
-          <h1 class="push-0">About</h1>
+          <h2 class="push-0">About</h2>
           <p class="mega push-0">Is there anywhere in this town where we could buy a shrubbery!?</p>
           <p class="mega push-0 max-length">Yes, shrubberies are my trade—I am a shrubber. My name is Roger the Shrubber. I arrange, design, and sell shrubberies.</p>
         </div>
       </div>
     </div>
 
-    <div id="products">
+    <section id="shrubs">
       <div class="wrapper gutter-1-2">
         <h2 class="push-0 color-brand-dark">Products</h2>
         <p class="mega max-length">If you do not tell us where we can buy a shrubbery, my friend and I will say… we will say… “nee”.</p>
@@ -76,41 +76,41 @@
           </li>
         </ul>
       </div>
-    </div>
+    </section>
 
-    <div class="prices pad-t pad-b">
+    <section class="prices pad-t pad-b" id="prices">
       <div class="wrapper gutter-1-2">
         <h3 class="push-0 color-brand-dark">Prices</h3>
         <span class="mega max-length">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</span>
 
         <table>
           <tr>
-            <td>&nbsp;</td>
-            <td>Small</td>
-            <td>Medium</td>
-            <td>Large</td>
+            <th scope="col">&nbsp;</th>
+            <th scope="col">Small</th>
+            <th scope="col">Medium</th>
+            <th scope="col">Large</th>
           </tr>
           <tr>
-            <td>Grassy shrubs</td>
+          <th scope="row">Grassy shrubs</th>
             <td>$10</td>
             <td>$20</td>
             <td>$30</td>
           </tr>
           <tr>
-            <td>Shrubs with laurels</td>
+            <th scope="row">Shrubs with laurels</th>
             <td>$40</td>
             <td>$70</td>
             <td>$100</td>
           </tr>
           <tr>
-            <td>Two-level shrubbery</td>
+            <th scope="row">Two-level shrubbery</th>
             <td>$50</td>
             <td>$70</td>
             <td>$90</td>
           </tr>
         </table>
       </div>
-    </div>
+    </section>
 
     <div class="news pad-t pad-b" id="news">
       <div class="wrapper gutter-1-2">
@@ -119,7 +119,7 @@
 
         <ol class="list-group">
           <li class="push">
-            <h3 class="push-0"><a href="#">What makes a good shrubbery?</a></h3>
+            <h3 class="push-0"><a href="section#news">What makes a good shrubbery?</a></h3>
             <p class="push-0">A quick checklist for determining if a shrub is worthy of knighthood. <a href="#">Read&nbsp;more…</a></p>
           </li>
           <li class="push">
